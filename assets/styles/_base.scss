@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+  font-size: responsive 1em 1.25em;
+  font-range: 20em 60em;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  overflow-y: scroll;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $main-dark-color;
+  font-family: $main-font;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  -webkit-overflow-scrolling: touch;
+
+}
+
+::selection {
+  color: $main-dark-color;
+  background: $main-firm-color;
+  text-shadow: none;
+}
+
+body,
+html,
+h1, h2, h3, h4, h5, h6,
+p,
+a {
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+
+}

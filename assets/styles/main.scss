@@ -1,0 +1,21 @@
+@import "./_variables.scss";
+@import "./_base.scss";
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 300ms;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.container {
+  max-width: 75em;
+  height: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
